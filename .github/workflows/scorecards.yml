@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Run Scorecards Action
-        uses: feddericovonwernich/scorecards@main
+        uses: feddericovonwernich/scorecards/action@main
         id: scorecards
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
