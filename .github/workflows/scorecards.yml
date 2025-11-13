@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: ${{ secrets.SCORECARDS_PAT }}
           scorecards-repo: 'feddericovonwernich/scorecards'
-          scorecards-branch: 'main'
+          scorecards-branch: 'catalog'
 
       - name: Display Results
         run: |
