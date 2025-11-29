@@ -1,0 +1,25 @@
+{
+  "name": "test-repo-javascript",
+  "version": "1.0.0",
+  "description": "A test repository for scorecards with JavaScript/Jest setup",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "start": "node src/index.js"
+  },
+  "keywords": ["test", "scorecards", "jest"],
+  "author": "Test Author",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
+  }
+}
